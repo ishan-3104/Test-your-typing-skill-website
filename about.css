@@ -1,0 +1,40 @@
+body{
+    background-color:#f0f0f0;
+}
+.main-cont{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.block{
+    width:28%;
+    padding:10px;
+}
+.block img{
+    box-shadow: 1px 2px 12px;
+    margin-top: 55px;
+    margin-left: 50px;
+}
+ul li {
+    font-size: 18px;
+    font-family: Franklin Gothic;
+    list-style-type:none;
+}
+.block p{
+    font-size:18px;
+    font-family: Franklin Gothic;
+}
+.block h1{
+    font-size:35px;
+}
+.block h3{
+    font-size :25px;
+}
+.background{
+    background-image: url("https://res.cloudinary.com/dn1j6dpd7/image/upload/f_auto,q_auto/v1600423784/typing-speed-test/test-bg-right.png"),url("https://res.cloudinary.com/dn1j6dpd7/image/upload/f_auto,q_auto/v1600423784/typing-speed-test/test-bg-left.png");
+    background-size: 380px auto;
+    background-position: calc(55% - 650px) 0,calc(50% + 650px) 0;
+    background-repeat: repeat-y;
+    height: 400px; 
+    margin-top: -30%;   
+}
